@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <link rel="stylesheet" href="./assets/styles/header.css">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+  <link rel="stylesheet" href="./assets/styles/footer.css">
+  <title>Rocketshoes</title>
+</head>
+<body>
+  <header>
+    <img src="./assets/images/logo.svg" alt="Logo">
+    <a href="#" class="menu" aria-label="Menu para abrir a lista de navegação">
+      <img src="./assets/images/icon-menu.svg" alt="Menu" />
+    </a>
+    <nav class="navbar close">
+      <ul>
+        <li class="item"><a href="#">homem</a></li>
+        <li class="item"><a href="#">mulher</a></li>
+        <li class="item"><a href="#">criança</a></li>
+        <li class="item"><a href="#">customizar</a></li>
+        <li class="item">
+          <div aria-label="Pesquisar produtos" class="search-control">
+            <input type="search" name="search" id="search" placeholder="Pesquisar">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19.023 16.977C18.5546 16.5284 18.0988 16.0669 17.656 15.593C17.284 15.215 17.06 14.94 17.06 14.94L14.26 13.603C15.381 12.3316 15.9997 10.695 16 9C16 5.141 12.86 2 9 2C5.14 2 2 5.141 2 9C2 12.859 5.14 16 9 16C10.763 16 12.37 15.34 13.603 14.261L14.94 17.061C14.94 17.061 15.215 17.285 15.593 17.657C15.98 18.02 16.489 18.511 16.977 19.024L18.335 20.416L18.939 21.062L21.06 18.941L20.414 18.337C20.035 17.965 19.529 17.471 19.023 16.977ZM9 14C6.243 14 4 11.757 4 9C4 6.243 6.243 4 9 4C11.757 4 14 6.243 14 9C14 11.757 11.757 14 9 14Z" fill="black"/>
+            </svg>
+          </div>
+        </li>
+        <li class="item">
+          <a href="#" class="icon-bag" title="Sacola de Compras">
+            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.08333 31.1667H26.9167C28.4792 31.1667 29.75 29.8959 29.75 28.3333V12.75C29.75 12.3743 29.6007 12.0139 29.3351 11.7483C29.0694 11.4826 28.7091 11.3333 28.3333 11.3333H24.0833V9.91667C24.0833 6.01092 20.9058 2.83333 17 2.83333C13.0942 2.83333 9.91667 6.01092 9.91667 9.91667V11.3333H5.66667C5.29094 11.3333 4.93061 11.4826 4.66493 11.7483C4.39926 12.0139 4.25 12.3743 4.25 12.75V28.3333C4.25 29.8959 5.52075 31.1667 7.08333 31.1667ZM12.75 9.91667C12.75 7.5735 14.6568 5.66667 17 5.66667C19.3432 5.66667 21.25 7.5735 21.25 9.91667V11.3333H12.75V9.91667ZM7.08333 14.1667H9.91667V17H12.75V14.1667H21.25V17H24.0833V14.1667H26.9167L26.9195 28.3333H7.08333V14.1667Z" fill="black"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="product">
+      <h1 class="title">Tênis Esportivo Para Corrida Top</h1>
+      <p class="description">Esse tênis tem o intuito de te deixar ainda mais fitness, focado, e musculoso.</p>
+      <p class="price">R$1.000,00</p>
+      <button class="cta-red" type="button">Comprar</button>
+    </section>
+
+    <section class="photos">
+      <div class="principal">
+        <img src="./assets/images/tenis-2-ampliado.png" alt="Foto do tênis ampliado">
+      </div>
+      <div class="gallery">
+        <img tabindex="1" src="./assets/images/tenis-1-galeria.png" alt="Lateral do par de tênis">
+        <img tabindex="2" src="./assets/images/tenis-2-galeria.png" alt="Frente e sola do tênis" class="marker">
+        <img tabindex="3" src="./assets/images/tenis-3-galeria.png" alt="Lateral frontal de um tênis">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <iframe class="video" src="https://www.youtube-nocookie.com/embed/nkYcQMHwNO4" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="social-media">
+      <a href="https://www.facebook.com" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com" target="_blank">Instagram</a>
+      <a href="https://www.youtube.com" target="_blank">Youtube</a>
+      <a href="https://www.twitter.com" target="_blank">Twitter</a>
+      <a href="#" class="cta-black">
+        Explore mais
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 13H17.586L12.293 18.293L13.707 19.707L21.414 12L13.707 4.29297L12.293 5.70697L17.586 11H3V13Z" fill="white"/>
+        </svg> 
+      </a>
+    </div>
+  </footer>
+  <script src="./assets/scripts/main.js"></script>
+</body>
+</html>
